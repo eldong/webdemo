@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
         - name: demowebapp
-          image: "acredgdemo.azurecr.io/demo-webapp:BuildNumber"
+          image: "edgtestdemo.azurecr.io/demo-webapp:BuildNumber"
           ports:
             - name: http
               containerPort: 80
