@@ -8,4 +8,6 @@ namespace mywebapp.Models
 
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
     }
+
+    // feature added
 }
