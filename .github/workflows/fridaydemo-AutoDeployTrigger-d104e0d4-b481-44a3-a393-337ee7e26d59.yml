@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./webapp    
+        working-directory: ./mywebapp    
 
     steps:
       - name: Checkout to the branch
